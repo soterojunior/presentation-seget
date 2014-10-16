@@ -43,6 +43,14 @@ p {
     margin-top: 0;
     //color: #555555;
     color: white;
+
+}
+.fontStyleTitle {    
+    font-family:'Playfair Display', Georgia, serif; 
+}
+.styleAutores {    
+    padding-top:80px; 
+    font-family:'Lato', Arial, Helvetica, sans-serif;
 }
 
 .bg_slide1{
@@ -58,3 +66,12 @@ p {
     background-size: 100% 100%;     
     padding-top:50px;
   }  
+.logoImg{
+    background-image:url(img/logo.png); 
+    height:198px;
+    width:920px;
+    background-size: 920px 198px;
+    background-repeat: no-repeat;
+    margin-left: auto; 
+    margin-right: auto ;
+}
