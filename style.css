@@ -19,7 +19,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 body {
     font-family: "Lucida Bright","Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;
     width: 600px;
-    margin: 2em auto;
+    //margin: 2em auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,7 +41,20 @@ p {
 .tagline {
     font-size: 1.5em;
     margin-top: 0;
-    color: #555555;
+    //color: #555555;
+    color: white;
 }
 
+.bg_slide1{
+    background-image:url(img/bgfullmedia.png); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;     
+    padding-top:50px;
+  }
 
+.bg_slide2{
+    background-image:url(img/bgfullmediafoscu.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;     
+    padding-top:50px;
+  }  
