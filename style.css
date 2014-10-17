@@ -71,7 +71,13 @@ p {
     background-repeat: no-repeat;
     background-size: 100% 100%;     
     
-  }    
+  }
+ .bg_slide4{
+    background-image:url(img/crowdsource.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;     
+    
+  }       
 .logoImg{
     background-image:url(img/logo.png); 
     height:198px;
