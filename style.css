@@ -19,7 +19,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 body {
     font-family: "Lucida Bright","Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;
     width: 600px;
-    margin: 2em auto;
+    //margin: 2em auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,7 +41,49 @@ p {
 .tagline {
     font-size: 1.5em;
     margin-top: 0;
-    color: #555555;
+    //color: #555555;
+    color: white;
+
+}
+.fontStyleTitle {    
+    font-family:'Playfair Display', Georgia, serif; 
+}
+.styleAutores {    
+    padding-top:80px; 
+    font-family:'Lato', Arial, Helvetica, sans-serif;
 }
 
+.bg_slide1{
+    background-image:url(img/bgfullmedia.png); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;     
+    padding-top:50px;
+  }
 
+.bg_slide2{
+    background-image:url(img/bgfullmediafoscu.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;     
+    padding-top:50px;
+  }
+.bg_slide3{
+    background-image:url(img/bgfullmedia3.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;     
+    
+  }
+ .bg_slide4{
+    background-image:url(img/crowdsource.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;     
+    
+  }       
+.logoImg{
+    background-image:url(img/logo.png); 
+    height:198px;
+    width:920px;
+    background-size: 920px 198px;
+    background-repeat: no-repeat;
+    margin-left: auto; 
+    margin-right: auto ;
+}
